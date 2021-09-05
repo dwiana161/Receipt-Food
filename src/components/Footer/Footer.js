@@ -3,7 +3,7 @@ import logo from '../image/image 55.png';
 import './Footer.css';
 import List from './List';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fab } from '@fortawesome/free-brands-svg-icons';
+// import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faPhone, faInstagram } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {

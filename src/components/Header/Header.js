@@ -16,7 +16,7 @@ const Header = () => {
                 </p>
                 <div className="header-link col-md-12 col-12">
                     <button className="btn-header btn">Daftar Sekarang</button>
-                    <p href="#" className="btn-main-offer">About Us</p>  
+                    <a href="#" className="btn-main-offer">About Us</a>  
                 </div>
             </div>
             </div>

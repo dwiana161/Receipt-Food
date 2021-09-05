@@ -2,20 +2,24 @@
     width: 13rem;
     height: 10rem;
     margin-left: 0.625rem;
+    background-color: #E6F3F5;
 }
 
+.card-category:hover {
+    box-shadow: 8px 8px 8px blue;
+    transform:scale(1.2);
+}
 /* .card:hover{
     box-shadow: 0.313rem 0.625rem 1.25rem 0.063rem;
 } */
 
 .card-body{
-    padding: 3rem 0!important;
+    padding: 2rem 0!important;
 }
 
 .card-title{
     font-weight: bolder;
     font-size: 1rem;
-    line-height: 1.375rem;
 }
 
 .item-category{
@@ -31,6 +35,13 @@
 
 .row {
     padding-top: 2.674rem;
+}
+
+.img-category {
+    width: 4.267rem;
+    height: 4.296rem;
+    padding-left: 10%;
+    padding-top: 5%;
 }
 
 .btn-category {

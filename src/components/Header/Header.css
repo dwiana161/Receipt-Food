@@ -33,9 +33,7 @@
 .picture {
     max-width: 25.806rem;
     height: 25.922rem;
-    left: 51.374rem;
-    top: 9.548;
-    z-index: 1;
+    top: 9.548rem;
 }
 
 @media(max-width: 668px) {
@@ -65,4 +63,5 @@
    margin-left: 3.25rem;
    font-weight: bolder;
    font-size: 0.875rem;
+   color: var(--primary-black);
 }

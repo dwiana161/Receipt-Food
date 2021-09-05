@@ -18,6 +18,7 @@ const Category = () => {
                         <div className="caraousel-item">
                             <div className="col-md-4">
                                 <Card 
+                                    image= {Cupcakes}
                                     title='Cupcakes'
                                     item='22 Items'
                                 />
@@ -26,6 +27,7 @@ const Category = () => {
                         <div className="caraousel-item">
                             <div className="col-md-4">
                                 <Card 
+                                    image= {Pizza}
                                     title='Pizza'
                                     item='25 Items'
                                 />
@@ -33,15 +35,17 @@ const Category = () => {
                         </div>
                         <div className="caraousel-item">
                             <div className="col-md-4">
-                                <Card 
-                                title='Kebab'
-                                item='12 Items' 
+                                <Card
+                                    image= {Kebab} 
+                                    title='Kebab'
+                                    item='12 Items' 
                                 />
                             </div>
                         </div>
                         <div className="caraousel-item">
                             <div className="col-md-4">
                                 <Card 
+                                    image= {Salmon}
                                     title='Salmon'
                                     item='22 Items'
                                 />
@@ -50,6 +54,7 @@ const Category = () => {
                         <div className="caraousel-item">
                             <div className="col-md-4">
                                 <Card 
+                                    image= {Doughnut}
                                     title='Doughnut'
                                     item='11 Items'
                                 />
