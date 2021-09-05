@@ -8,7 +8,7 @@ import { faEnvelope, faPhone, faInstagram } from '@fortawesome/free-solid-svg-ic
 
 const Footer = () => {
     return (
-        <div className="main-footer footer-collapse d-none d-lg-block">
+        <div className="main-footer footer-collapse">
             <div className= "container">
                 <div className="row">
                     {/*Column 1 */}

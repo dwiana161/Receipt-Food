@@ -1,7 +1,7 @@
 import React from 'react';
 import './Trending.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStar } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 const Card = ({ image, title, item, star1, star2, star3, star4, star5}) => {
     return (

@@ -1,6 +1,8 @@
 import React from 'react';
 import './Header.css';
 import picture from '../image/Image.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
     return ( 
@@ -16,12 +18,30 @@ const Header = () => {
                 </p>
                 <div className="header-link col-md-12 col-12">
                     <button className="btn-header btn">Daftar Sekarang</button>
-                    <a href="#" className="btn-main-offer">About Us</a>  
+                    <a href="#" className="btn-main-offer">About Us</a> 
                 </div>
             </div>
             </div>
             <div className="col-sm">
                 <img className="picture" src={picture} alt='logo...' />
+                <div className="card-header card">
+              <div className="card-body">
+                <img src={picture} alt="" className="img-header card-img-top"/>
+                <div className="text-body">
+                <h4 className="header-food-title card-title">Green Salad Tomato</h4>
+                <p className="text-header card-text">
+                    Tomato
+                </p>
+                </div>
+                <div className="header-star star">
+                    <FontAwesomeIcon icon={faStar} className='checked'/>
+                    <FontAwesomeIcon icon={faStar} className='checked'/>
+                    <FontAwesomeIcon icon={faStar} className='checked'/>
+                    <FontAwesomeIcon icon={faStar} className='checked'/>
+                    <FontAwesomeIcon icon={faStar} className='checked'/>
+                    </div>
+                </div>
+        </div>
             </div>
         </div>
         </div>

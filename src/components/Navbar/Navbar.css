@@ -18,6 +18,10 @@
     margin-left: 5.219rem;
   }
 
+  .navbar {
+    margin-right: 0rem;
+  }
+  
   @media(max-width: 768px) {
     .navbar {
       margin-right: 0rem !important;
