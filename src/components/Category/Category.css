@@ -1,0 +1,43 @@
+.card-category {
+    width: 13rem;
+    height: 10rem;
+    margin-left: 0.625rem;
+}
+
+/* .card:hover{
+    box-shadow: 0.313rem 0.625rem 1.25rem 0.063rem;
+} */
+
+.card-body{
+    padding: 3rem 0!important;
+}
+
+.card-title{
+    font-weight: bolder;
+    font-size: 1rem;
+    line-height: 1.375rem;
+}
+
+.item-category{
+    font-size: .875rem;
+}
+
+.category {
+    padding-left: 0.14rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    /* padding: '1.875rem 5.063rem'; */
+}
+
+.row {
+    padding-top: 2.674rem;
+}
+
+.btn-category {
+    margin-top: 2.875rem;
+    width: 7.063rem;
+    height: 3.125rem;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.188rem;
+}

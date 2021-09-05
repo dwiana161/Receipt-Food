@@ -1,0 +1,67 @@
+  .picture-footer {
+      width: 12.938rem;
+      height: 3.125rem;
+      left: 0%;
+      right: -75.42%;
+      margin-top: 0.294rem;
+      margin-bottom: 1.356rem;
+      bottom: 11.17%;
+  }
+
+  .address {
+      line-height: 1.25rem;
+  }
+
+  .list-unstyled {
+      font-size: 0.875rem;
+  }
+
+  .text > li {
+    --primary-grey: #757575;
+    margin-top: 2.063rem;
+    line-height: 1rem;
+  }
+
+  .discount {
+    margin-top: 2.070rem;
+  }
+
+  .form-control {
+      margin-top: 1.125rem;
+      border: 0.063rem solid var(--primary-black);
+      box-sizing: border-box;
+      border-radius: 0.5rem;
+  }
+
+  .form {
+    display: flex;
+  }
+
+  .btn-footer {
+      margin-top: 1.125rem;
+      left: 2rem;
+      width: 3.75rem;
+      height: 2.5rem;
+      border-radius: 0rem 0.5rem 0.5rem 0rem;
+      /*----------Text----------*/
+      font-weight: bolder;
+      line-height: 1.5rem;
+  }
+
+  .copy {
+      text-align: center;
+  }
+
+  .footer-bottom {
+    margin-top: 7.188rem;
+  }
+
+  .envelope, .phone {
+    color: var(--primary-green);
+  }
+
+  .envelope:hover, .phone:hover {
+    background-color: var(--primary-green);
+    color: var(--primary-white);
+    border-radius: 1.5rem;
+  }

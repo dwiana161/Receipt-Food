@@ -1,38 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+:root {
+    --primary-white: #ffffff;
+    --primary-black: #000;
+    --primary-green: #8BAC3E;
+    --primary-font: "Rubik";
+  }
+
 .App {
-  text-align: center;
+  font-family: var(--primary-font);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  font-weight: bolder;
+  font-size: 2.375rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.receipt {
+  font-weight: bolder;
+  font-size: 2.375rem;
+  color: var(--primary-green)
 }

@@ -1,0 +1,47 @@
+.card-trending {
+    width: 16.969rem;
+    height: 19.125rem;
+}
+
+.img-food {
+    width: 8.938rem;
+    height: 8.375rem;
+    padding-left: 10%;
+}
+
+.text-body {
+    padding-left: 10%;
+    font-weight: bolder;
+}
+
+.card-title-trending {
+    font-weight: bolder;
+    padding-top: 5%;
+    font-size: 1.625rem;
+    width: 15.688rem;
+    height: 3.125rem;
+}
+
+.text-trending {
+    width: 7rem;
+    height: 1.313rem;
+    font-size: 1.125rem;
+    color: var(--primary-green);
+}
+
+.btn-trending {
+    margin-top: 2.875rem;
+    width: 10rem;
+    height: 3.125rem;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.star {
+    padding-left: 10%;
+}
+.checked {
+    
+    color: orange;
+  }
