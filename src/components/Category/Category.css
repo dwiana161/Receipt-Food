@@ -41,3 +41,7 @@
     text-align: center;
     line-height: 1.188rem;
 }
+
+.carousel-inner {
+    display: flex;
+}
