@@ -4,11 +4,26 @@
     background-color: #E6F3F5;
 }
 
+@media(max-width: 668px) {
+    .card-trending {
+      width: 14.969rem;
+      height: 16.125rem;
+    }
+  }
+
 .img-food {
     width: 8.938rem;
     height: 8.375rem;
     padding-left: 10%;
 }
+
+@media(max-width: 668px) {
+    .img-food{
+      width: 7.969rem;
+      height: 7.125rem;
+    }
+  }
+
 
 .text-body {
     padding-left: 10%;
@@ -22,6 +37,12 @@
     width: 15.688rem;
     height: 3.125rem;
 }
+
+@media(max-width: 668px) {
+    .card-title-trending{
+    font-size: 1.425rem;
+    }
+  }
 
 .text-trending {
     width: 7rem;

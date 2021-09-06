@@ -17,7 +17,7 @@ const Trending = () => {
             <h4 className="receipt">Receipt</h4>
             <div className="d-flex justify-content-start mt-50 mb-50">
             <div className="row justify-content-around">
-                <div className="col-sm-6 col-lg-3">
+                <div className="col-sm-6 col-lg-3 mt-4">
                     <Card 
                         image={pizza}
                         title='Pizza Paperoni'
@@ -28,7 +28,7 @@ const Trending = () => {
                         star4='checked'
                     />
                 </div>
-                <div className="col-sm-6 col-lg-3">
+                <div className="col-sm-6 col-lg-3 mt-4">
                     <Card 
                         image={pizza2}
                         title='Pizza Meat'
@@ -38,7 +38,7 @@ const Trending = () => {
                         star3='checked'
                     />
                 </div>
-                <div className="col-sm-6 col-lg-3">
+                <div className="col-sm-6 col-lg-3 mt-4">
                     <Card 
                        image={kebab}
                        title='Doner Kebab'
@@ -50,7 +50,7 @@ const Trending = () => {
                         star5='checked'
                     />
                 </div>
-                <div className="col-sm-6 col-lg-3">
+                <div className="col-sm-6 col-lg-3 mt-4">
                     <Card 
                         image={salmon}
                         title='Salmon Roll'
