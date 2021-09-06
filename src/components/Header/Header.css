@@ -10,6 +10,7 @@
 @media(max-width: 668px) {
     .header-title {
       width: 20rem !important;
+      font-size: 3rem;
     }
   }
 
@@ -49,12 +50,6 @@
   .header-link {
       display: flex;
   }
-
-  @media(max-width: 668px) {
-    .header-link {
-      max-width: 8rem !important;
-    }
-  }
   
 .btn-header {
     margin-top: 2rem;
@@ -63,7 +58,7 @@
 }
 
 .btn-main-offer{
-    margin-top: 2.5rem;
+   margin-top: 2.5rem;
    margin-left: 3.25rem;
    font-weight: bolder;
    font-size: 0.875rem;
