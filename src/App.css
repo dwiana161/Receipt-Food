@@ -16,8 +16,20 @@
   font-size: 2.375rem;
 }
 
+@media(max-width: 768px) {
+  .title {
+   font-size: 2rem !important;
+  }
+}
+
 .receipt {
   font-weight: bolder;
   font-size: 2.375rem;
   color: var(--primary-green)
+}
+
+@media(max-width: 768px) {
+  .receipt {
+   font-size: 1.8rem !important;
+  }
 }
